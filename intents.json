@@ -1,0 +1,154 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "What's up?",
+          "Howdy"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Hey! Need any help?",
+          "Good to see you! How can I help?",
+          "Hi! How can I assist?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Take care",
+          "Catch you later",
+          "See you"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later!",
+          "Take care!",
+          "Bye! Reach out if you need anything!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "I appreciate it",
+          "Thanks a lot",
+          "Many thanks"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "No problem!",
+          "Glad I could assist!",
+          "Anytime!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I need help",
+          "Can you help me?",
+          "Help me",
+          "I need assistance",
+          "What can you do?",
+          "How can you assist me?"
+        ],
+        "responses": [
+          "Sure! I can help with a variety of tasks. What do you need?",
+          "Of course! What can I assist you with?",
+          "I’m here to help! Please let me know your query."
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do you offer?",
+          "What can you do?",
+          "Tell me about your services",
+          "What are your capabilities?"
+        ],
+        "responses": [
+          "I can assist with customer support, general queries, and more. How can I assist you?",
+          "I'm designed to help with a range of tasks, including answering queries, providing information, and more. What would you like to know?"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like?",
+          "Tell me the weather",
+          "How's the weather?",
+          "What's the forecast for today?",
+          "Is it going to rain today?"
+        ],
+        "responses": [
+          "I can give you a weather update! Please enable location sharing, or provide a city name for me to assist you better."
+        ]
+      },
+      {
+        "tag": "small_talk",
+        "patterns": [
+          "How are you?",
+          "How's it going?",
+          "How's your day?",
+          "What's up?"
+        ],
+        "responses": [
+          "I'm just a bot, but I'm here to help you!",
+          "Doing great, thanks for asking! How can I assist you today?",
+          "I'm functioning as expected! How about you?"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What's your name?",
+          "Who are you?",
+          "Can you tell me your name?",
+          "What do you call yourself?"
+        ],
+        "responses": [
+          "I'm Jarvis and I'm here to assist you!"
+
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "What are your hours?",
+          "When are you available?",
+          "Can I talk to you anytime?",
+          "When can I get help?"
+        ],
+        "responses": [
+          "I'm available 24/7 to assist you!",
+          "You can reach me anytime, I'm always here to help."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "What's your location?",
+          "Where can I find you?",
+          "Where is your office?"
+        ],
+        "responses": [
+          "I am a virtual assistant, but the company I represent is located at [insert address].",
+          "I operate online, but my creators are based in [insert location]."
+        ]
+      }
+    ]
+  }
+            
