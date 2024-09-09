@@ -18,6 +18,7 @@ This is a simple Python-based chatbot that uses Natural Language Processing (NLP
 - Python 3.6+
 - `nltk` library
 - `tensorflow` library
+- virtual environment (.venv)
 
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. All contributions are welcome!
